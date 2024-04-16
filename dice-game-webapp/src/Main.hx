@@ -9,7 +9,7 @@ class Main {
 			var numberOfDice:Int = Std.parseInt(diceInput.value); // get number of dice to roll
 			appContent.innerHTML = ""; // set app content to empty string
 			var dice:Array<Int> = []; // initialize dice array
-			var sum:Int = 0; // initialize sum to 0
+			var sum:Int = 0; // initialize dice sum to 0
 			for (i in 0...numberOfDice) {
 				dice[i] = Std.random(6) + 1; // roll the dice
 				sum += dice[i]; // add die value to sum
