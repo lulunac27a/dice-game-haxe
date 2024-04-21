@@ -5,6 +5,11 @@ class Main {
 		rollDice(Sys.stdin()); // get input to roll the dice based on input
 	}
 
+	/**
+	 * Format the number with commas as thousand seperator.
+	 * @param number Number to format
+	 * @return Number with commas as thousand seperator
+	 */
 	static function numberWithCommas(number:Int):String {
 		var numString:String = Std.string(number);
 		var numLen:Int = numString.length;
@@ -18,6 +23,9 @@ class Main {
 		return output;
 	}
 
+	/**
+	 * Rolls the dice.
+	 */
 	static function rollDice(input:haxe.io.Input):Void {
 		var numberOfDice:Int = Std.parseInt(input.readLine()); // parse input to integer
 		var dice:Array<Int> = []; // initialize empty array of dice
