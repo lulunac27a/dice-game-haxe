@@ -1,6 +1,6 @@
 # Dice Game in Web Application using Haxe and JavaScript
 
-This is a dice game with a web application that uses Haxe to compute to JavaScript code. It uses HTML to process input how many dice to roll and also displays the sum of all dice.
+This is a dice game with a web application that uses Haxe to compute to JavaScript code. It uses HTML to process input how many dice are to roll and also displays the sum of all dice.
 
 ### Getting Started
 
