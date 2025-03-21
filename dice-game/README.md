@@ -6,8 +6,7 @@ It also prints the sum of all dice.
 
 ### Getting Started
 
-```
-git clone https://github.com/lulunac27a/dice-game-haxe.git
-cd dice-game
-haxe build.hxml
-```
+
+1. Clone the repository: `git clone https://github.com/lulunac27a/dice-game-haxe.git`
+2. Change the directory: `cd dice-game`
+3. Build the app: `haxe build.hxml`
