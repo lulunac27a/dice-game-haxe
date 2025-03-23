@@ -5,11 +5,11 @@ import js.html.*;
 class Main {
 	static function main() {
 		var appContent:DivElement = cast(Browser.document.getElementById("app"),
-			js.html.DivElement);
+			js.html.DivElement); // app content element
 		var rollButton:ButtonElement = cast(Browser.document.getElementById("roll"),
-			js.html.ButtonElement);
+			js.html.ButtonElement); // roll button element
 		var diceInput:InputElement = cast(Browser.document.getElementById("dice"),
-			js.html.InputElement);
+			js.html.InputElement); // number of dice to roll input text element
 		rollButton.onclick = (event) -> { // when roll dice button is clicked
 			var numberOfDice:Int = Std.parseInt(diceInput.value); // get number of dice to roll
 			appContent.innerHTML = ""; // set app content to empty string
