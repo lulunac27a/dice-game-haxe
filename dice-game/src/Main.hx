@@ -31,7 +31,9 @@ class Main {
 		var dice:Array<Int> = []; // initialize empty array of dice
 		var sum:Int = 0; // initialize dice sum to 0
 		for (i in 0...numberOfDice) { // loop to entered number of dice based on input
-			dice[i] = Std.random(6) + 1; // add dice array to rolled die and make dice result is between 1 to 6
+			dice[i] = Std.random(6)
+				+
+				1; // add dice array to rolled die and make dice result is between 1 to 6
 			sum += dice[i]; // add die value to sum
 			trace('Dice ${numberWithCommas(i + 1)}: ${numberWithCommas(dice[i])}'); // print die roll value
 		}
