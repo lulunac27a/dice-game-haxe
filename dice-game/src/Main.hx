@@ -8,7 +8,7 @@ class Main {
 	/**
 	 * Format the number with commas as thousand separator.
 	 * @param number Number to format
-	 * @return Number with commas as thousand separator
+	 * @return Formatted number with commas as thousand separator
 	 */
 	static function numberWithCommas(number:Int):String {
 		var numString:String = Std.string(number);
