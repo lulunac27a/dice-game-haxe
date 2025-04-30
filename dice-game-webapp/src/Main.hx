@@ -21,7 +21,7 @@ class Main {
 				var newDice:js.html.DivElement = cast(Browser.document.createElement("div"),
 					js.html.DivElement);
 				newDice.id = 'dice-${i + 1}'; // set id to dice-number to make id's unique
-				newDice.textContent = 'Dice ${new NumberFormat().format(i + 1)}: ${dice[i]}'; // set text to each die value
+				newDice.textContent = 'Dice ${new NumberFormat().format(i + 1)}: ${dice[i]}'; // set text to each die value with formatted number with commas as thousand separator
 				appContent.appendChild(newDice); // append dice values to app content
 			}
 			appContent.innerHTML += '\nSum of dice: ${new NumberFormat().format(sum)}'; // print sum of all dice and append to app content
