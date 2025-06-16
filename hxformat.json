@@ -1,5 +1,1 @@
-{
-    "wrapping": {
-        "maxLineLength": 80
-    }
-}
+{ "wrapping": { "maxLineLength": 80 } }
